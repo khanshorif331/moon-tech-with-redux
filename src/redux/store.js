@@ -4,3 +4,5 @@ import productReducer from './reducers/productReducer'
 const store = createStore(productReducer)
 
 export default store
+
+// store setup done
