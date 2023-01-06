@@ -1,12 +1,10 @@
 import React from 'react'
 import { BiListPlus } from 'react-icons/bi'
-import { useDispatch, useSelector } from 'react-redux'
+import { useDispatch } from 'react-redux'
 import { addToCart } from '../redux/actionCreators/productAction'
-import { ADD_TO_CART } from '../redux/actionTypes/actionTypes'
 
 const ProductCard = ({ product }) => {
 	const dispatch = useDispatch()
-	// const {} = useSelector()
 	return (
 		<div
 			className="shadow-lg rounded-3xl border  p-3 flex flex-col text-indigo-900"
